@@ -2,12 +2,14 @@
   "name": "suite-level-tags",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "repository": "git@github.com:marvelapp/suite-level-tags.git",
   "author": "Mark Allison <mallison77@gmail.com>",
   "license": "MIT",
   "private": false,
   "devDependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^20.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
     "cypress": "^13.6.4"
   }
 }
