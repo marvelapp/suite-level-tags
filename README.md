@@ -30,3 +30,12 @@ does not work.
 I can see from the code that configuraion set via tags is gathered and applied to each `it`, which is why suite-level options don't work.
 
 Applying tags on `Feature` to the corresponding `describe` would possibly allow this to work.
+
+To run this test case, clone this repo then
+
+```
+yarn install
+yarn run cypress open
+```
+
+and select the `suiteLevelSettings` suite to run.
